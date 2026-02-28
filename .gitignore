@@ -1,0 +1,15 @@
+__pycache__/
+.claude
+.DS_Store
+.gemini
+.tmp
+.venv
+*.egg-info
+*.py[oc]
+AGENTS.md
+CLAUDE.md
+CODING.md
+docs/
+learnings/
+notes/
+plans/

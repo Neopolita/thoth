@@ -1,0 +1,25 @@
+[project]
+name = "thoth"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "coloredlogs>=15.0.1",
+    "ddgs>=9.10.0",
+    "dspy>=3.1.3",
+    "mlx-lm>=0.30.7",
+    "peft>=0.18.1",
+    "pydantic>=2.12.5",
+    "pydantic-monty>=0.0.7",
+    "rich>=14.3.3",
+    "torch>=2.10.0",
+    "trafilatura>=2.0.0",
+    "transformers>=5.2.0",
+]
+
+[tool.black]
+line-length = 192
+
+[tool.ruff]
+line-length = 192
