@@ -6,7 +6,7 @@ The LoRA-memory powered coding agent.
 
 Instead of feeding entire documents into the context window, Thoth converts them into LoRA adapters on the fly using [Sakana.ai's Doc-to-LoRA](https://pub.sakana.ai/doc-to-lora/), freeing up context for reasoning and conversation while retaining document knowledge in the model's weights.
 
-[![Demo video](https://img.youtube.com/vi/dJu83BH-hQw/maxresdefault.jpg)](https://www.youtube.com/watch?v=dJu83BH-hQw)
+[![Demo video](https://img.youtube.com/vi/dJu83BH-hQw/hqdefault.jpg)](https://www.youtube.com/watch?v=dJu83BH-hQw)
 
 ## How it works
 
