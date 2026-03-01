@@ -53,6 +53,15 @@ def restart_memory_server():
     )
 
 
+def clear_memory():
+    if os.path.exists(".tmp/memory.txt"):
+        os.remove(".tmp/memory.txt")
+    if os.path.exists(".tmp/d2l"):
+        for file in os.listdir(".tmp/d2l"):
+            os.remove(os.path.join(".tmp/d2l", file))
+    restart_memory_server()
+
+
 def query_memory(query: str) -> str:
     """Query memory with a natural language query."""
     try:

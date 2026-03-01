@@ -1,6 +1,5 @@
-______________ ___ ______________________ ___  
-\__    ___/   |   \\_____  \__    ___/   |   \ 
-  |    | /    ~    \/   |   \|    | /    ~    \
-  |    | \    Y    /    |    \    | \    Y    /
-  |____|  \___|_  /\_______  /____|  \___|_  / 
-                \/         \/              \/  
+ dMMMMMMP dMP dMP .aMMMb dMMMMMMP dMP dMP 
+   dMP   dMP dMP dMP"dMP   dMP   dMP dMP  
+  dMP   dMMMMMP dMP dMP   dMP   dMMMMMP   
+ dMP   dMP dMP dMP.aMP   dMP   dMP dMP    
+dMP   dMP dMP  VMMMP"   dMP   dMP dMP  The LoRA-memory powered agent

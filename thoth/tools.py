@@ -7,9 +7,9 @@ import trafilatura
 def require_permission(func):
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
-        answer = Confirm.ask(f"Allow {func.__name__}({kwargs})?")
+        answer = Confirm.ask(f"\n⏺ Allow {func.__name__}({kwargs})?")
         if not answer:
-            return "Tool call denied by user."
+            return "\n⏺ Tool call denied by user."
         return func(*args, **kwargs)
 
     return wrapper

@@ -1,6 +1,7 @@
 __pycache__/
 .claude
 .DS_Store
+.env
 .gemini
 .tmp
 .venv

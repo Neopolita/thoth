@@ -17,7 +17,11 @@ def suppress_logs():
             logging.disable(logging.NOTSET)
 
 
-def truncate(text: str, max_length: int = 100) -> str:
+def count_tokens(text: str) -> int:
+    return len(text) // 4
+
+
+def truncate(text: str, max_length: int = 256) -> str:
     """Truncate text to max_length, appending '...' if truncated."""
     if len(text) <= max_length:
         return text
